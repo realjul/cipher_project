@@ -21,6 +21,10 @@ def another_cipher():
 
 
 def start():
+    
+    """
+    Will start the cipher program.
+    """
 
     print("Welcome to Cipher Decrypter!","Please choose a cipher to encrypt or decrypt a message: ","Atbash,"
           ,"Bifid,","or Keyword")
@@ -33,6 +37,10 @@ def start():
         bifid_funcs.bifid()
 
 def start_over():
+    
+    """
+    Will restart the cipher program.
+    """
 
     print("Great let's use Cipher Decrypter again!","Please choose a cipher to encrypt or decrypt a message: ","Atbash,"
           ,"Bifid,","or Keyword")
