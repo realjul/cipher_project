@@ -8,6 +8,9 @@ import bifid_funcs
 
 
 def another_cipher():
+    """
+    Will give option to use another cipher.
+    """
     again = input("Which cipher would you like now? ")
     if again == 'atbash':
         atbash_funcs.atbash()
